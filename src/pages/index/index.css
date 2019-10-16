@@ -1,0 +1,90 @@
+.index{
+    background: #f5f5f5;
+    height: 100%;
+}
+.banner .banner_img{
+    width:100%;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 188px;
+    padding:30px 0;
+    background: #fff;
+}
+.navs .nav_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navs Text{
+    font-size: 30px;
+    margin-top:10px;
+}
+.navs Image{
+    width: 90px;
+    height:90px;
+}
+.recommend{
+    background: #fff;
+    margin-top:20px;
+    padding-bottom: 30px;
+}
+.recommend_t{
+    padding:24px 30px;
+}
+
+.recommend_b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.recommend_b Text{
+    font-size: 30px;
+    margin-top:10px;
+}
+.recommend_b .recommend_b_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommend_b_item Image{
+    width:190px;
+    height: 268px;
+}
+.classify{
+    background: #fff;
+    margin-top:10px;
+}
+.classify_t{
+    padding:24px 30px;
+}
+.classify Image{
+    width:190px;
+    height: 268px;
+}
+.classify_b_item{
+    display: flex;
+    padding:30px 36px;
+}
+.classify_b_item .books_logo{
+    margin-right: 20px;
+}
+.books_content{
+    width: 488px;
+    font-weight: 400;
+    color: #999;
+    
+    /* 文本几行出... */
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
